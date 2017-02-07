@@ -1,2 +1,7 @@
 jupbook.log
 .ipynb_checkpoints
+__pycache__
+*.pkl
+*.gz
+*.swp
+
