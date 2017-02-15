@@ -4,4 +4,4 @@ __pycache__
 mnist.pkl
 *.gz
 *.swp
-
+MNIST_data
