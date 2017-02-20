@@ -39,6 +39,8 @@ function virtalenv() {
     
     # install scikit-learn separately, it depends on numpy and scipy
     pip install scikit-learn
+
+    pip install tensorflow keras
     
     # deactivate env
     deactivate
