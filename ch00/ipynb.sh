@@ -19,7 +19,7 @@ function install() {
     apt-get install -y libfreetype6-dev libpng-dev libjpeg8-dev
 }
 
-function virtalenv() {
+function virtualenv() {
     
     # create and activate virtual environment  (env name is jupnb)
     # logout & relogin
@@ -93,6 +93,7 @@ function main() {
 
     if [ "$cmd" == "install" ]; then
         install
+        virtualenv  
         nbprofile
     elif [ "$cmd" == "start" ]; then
         start
@@ -105,5 +106,3 @@ function main() {
 
 
 main $*
-   
-}
