@@ -1,6 +1,6 @@
 Running assignments for Udacity Deep Learning class with TensorFlow
 =====
-## Env
+## Preparation
 - Running docker machine
 ```
 docker-machine create -d virtualbox --virtualbox-memory 8196 tensorflow
@@ -18,9 +18,7 @@ docker start -ai tensorflow-udacity
 ```
 docker-machine ip tensorflow
 ```
-
-## Env for GPU support..(May not supported in windows)
-- 
+-  GPU support..(May not supported in windows)
 ```
 docker run -m 4g -d -it -p 8888:8888 -p 6006:6006 gcr.io/tensorflow/tensorflow:latest-gpu
 ```
